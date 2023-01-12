@@ -5,19 +5,19 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Endroid\QrCode\Color\Color;
 use Endroid\QrCode\Encoding\Encoding;
-use Endroid\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelLow;
+// use Endroid\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelLow;
 use Endroid\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelHigh;
 use Endroid\QrCode\QrCode;
 use Endroid\QrCode\Label\Label;
 use Endroid\QrCode\Logo\Logo;
-use Endroid\QrCode\RoundBlockSizeMode\RoundBlockSizeModeMargin;
+// use Endroid\QrCode\RoundBlockSizeMode\RoundBlockSizeModeMargin;
 use Endroid\QrCode\RoundBlockSizeMode\RoundBlockSizeModeEnlarge;
-use Endroid\QrCode\RoundBlockSizeMode\RoundBlockSizeModeNone;
-use Endroid\QrCode\RoundBlockSizeMode\RoundBlockSizeModeInterface;
-use Endroid\QrCode\RoundBlockSizeMode\RoundBlockSizeModeShrink;
+// use Endroid\QrCode\RoundBlockSizeMode\RoundBlockSizeModeNone;
+// use Endroid\QrCode\RoundBlockSizeMode\RoundBlockSizeModeInterface;
+// use Endroid\QrCode\RoundBlockSizeMode\RoundBlockSizeModeShrink;
 use Endroid\QrCode\Writer\PngWriter;
-use Endroid\QrCode\Writer\ValidationException;
-use Illuminate\Support\Facades\Redirect;
+// use Endroid\QrCode\Writer\ValidationException;
+// use Illuminate\Support\Facades\Redirect;
 
 class QrController extends Controller
 {
